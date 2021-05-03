@@ -68,11 +68,17 @@ header>menu>li>a{
 
   header>menu{ padding-left: 4px;font-size: larger;}
  
-  header>menu>li>a{border-bottom: 2px solid #0065FC; border-top: solid none;}
+  header>menu>li>a{border-bottom: 2px solid #0065FC; border-top: solid none;
+  width: 100%; padding-right: 0;}
   
+  header>menu>li{
+    width: 50%;
+    text-align: center;
+  }
+
   header>menu>li:last-child{position: absolute;
-    top: -10px;
-    right: -29px;
+    top: 0;
+    right: 0;
     font-size: larger;}
   
   .hebergement{ border-top: none !important;}
@@ -341,7 +347,7 @@ border-radius: 20px 250px 250px 00px;}
 
 main.hebetpop{display: block; padding-left: 0;}
 
-section.populaires{ width: 100%;padding:0;position: absolute;}
+section.populaires{ width: 100%;padding:1em;border-radius: 0;}
 
 .container{width: 100%;}
 
@@ -357,17 +363,14 @@ section>p.titrepop{padding-left: 15px;}
 
 section>p>i{padding-right: 20px;}
 
-section.Hotel1{position: absolute;
+section.Hotel1{
   background-color: white;
-  width: 80%;
-  padding-top: 630px;
-  padding-left: 0;
-  margin-left: 20px;
-  margin-right: 20px;}
+  width: 100%;
+  padding: 0;
+}
  
-  section>div.popplus{width: 80%;
-    margin-left: 20px;
-    margin-right: 20px;}
+  section>div.popplus{width: 100%;
+    }
 
   main>section>p.titreheb{padding-left: 15px;}
 
@@ -558,8 +561,8 @@ p.Afficherplus {margin-top: 0;
 
 
 @media only screen and (max-width:500px){
-section#activites{position: absolute;
-  padding-top: 2330px; width: 100%;}
+section#activites {
+   width: 100%;}
 
 }
 
@@ -605,5 +608,5 @@ ul.liste {
 
 
 @media only screen and (max-width:500px){
-  footer{display: block; position: relative; margin-top: 3500px;}
+  footer{display: block;}
 }
