@@ -53,7 +53,7 @@ header>menu>li>a{
   color: #0065FC;
   font-family: 'ralewaysemibold';}
 
-  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+  @media only screen and (min-device-width : 500px) and (max-device-width : 1000px){
     .barreFiltre{
       margin-left: 6px;
       margin-right: 6px;}
@@ -99,9 +99,9 @@ header>menu>li>a{
   
   .search{padding-left: 38px !important;}
  
-  nav>h3{font-size: 25px; padding-left: 38px !important;}
+  body>div.slogan>h1{font-size: 25px; padding-left: 38px !important;}
   
-  nav>h5{font-size: 18px; padding-left: 38px !important;}
+  body>div.slogan>h2{font-size: 18px; padding-left: 38px !important;}
   
   .Totalfiltre{display: block !important; padding-left: 30px !important;}
   
@@ -131,12 +131,12 @@ header>menu>li>a{
 .Activités
 {color: grey;}
 
-nav>h5{
+body>div.slogan>h2{
   margin-top: 0px;
   font-family: 'ralewaylight';
 padding-left: 25px;}
 
-nav>h3{
+body>div.slogan>h1{
   margin-bottom: 5px;
   font-family: 'ralewaysemibold';
   padding-left: 25px;
@@ -299,6 +299,11 @@ border-radius: 20px 250px 250px 00px;}
   margin: 0 5px 20px 5px;
   box-shadow: 0 5px 16px #0000002e;
   cursor: pointer;
+  position: relative;
+}
+
+.container>*:not(img){
+  padding: 0.5em;
 }
 
 .container>h4
@@ -335,6 +340,8 @@ border-radius: 20px 250px 250px 00px;}
 
 .stars{
   padding: 0.5em;
+  position: absolute;
+  bottom: 0;
 }
 
 .Afficherplus{
@@ -400,8 +407,21 @@ p.Afficherplus {margin-top: 0;
 
   }
 
+  
 
 
+  @media only screen and (min-width : 500px) and (max-width : 1000px){
+
+    .activites{}
+
+    .hebmars{}
+
+    .hebetpop{flex-direction: column;}
+
+    .hebetpop>*{width: 100% !important; box-sizing: border-box; margin-bottom: 1em;}
+
+    .Hotel1{order: 2;}
+  }
 
 /* Les plus populaires */
 
@@ -473,8 +493,12 @@ p.Afficherplus {margin-top: 0;
 }
 
 .actname {
-  padding: 0px 0px 0px 20px;
   font-family: 'ralewaybold';
+  text-align: center;
+}
+
+.actname>p{
+  margin: 0;
 }
 
 .activiteContainer .bgg h1 {
@@ -586,24 +610,26 @@ footer {
 ul.liste {
   color: #464646;
   padding: 0;
+  list-style: none;
 }
 
 #footer .bloc .liste {
   list-style: none;
 }
 
-.bloc h4 {
+.bloc h5 {
   text-decoration: none;
   color: black;
-  font-family: 'ralewaylight';
+  font-family: 'ralewaybold';
   font-size: small;
   cursor: pointer;
 }
 
-.bloc h3{
-  font-family: 'ralewaybold';
+.bloc li{
+  font-family: 'ralewaylight';
   color: black;
   cursor: pointer;
+  font-size: small;
 }
 
 
