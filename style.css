@@ -456,6 +456,7 @@ p.Afficherplus {margin-top: 0;
 
 .titrepop{
   font-family: 'ralewaybold';
+  font-size: large;
 }
 .titrepop>i{
   float: right;
@@ -529,6 +530,7 @@ p.Afficherplus {margin-top: 0;
 
 .activiteContainer .bgg h4 {
   margin-left: 25px;
+  font-size: large;
 }
 
 .activiteContainer .cont {
