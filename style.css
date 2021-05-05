@@ -404,7 +404,7 @@ p.Afficherplus {margin-top: 0;
   font-size: small;}
 
   section#activites>div.activiteContainer>div.bgg>ul.cont>div.groupe>div.colonne>div.act{margin-left: 20px;
-    margin-right: 20px; width: 80%;}
+     width: 93%;}
 
     section#activites>div.activiteContainer>div.bgg>ul.cont>div.groupe>div.colonne>div.act>div.actimg{width: 100%;
     height: 90px; margin-bottom: 20px;}
@@ -416,7 +416,7 @@ p.Afficherplus {margin-top: 0;
       max-width: 100% !important;}
     
     section#activites>div.activiteContainer>div.bgg>ul.cont>div.groupe>div.deuxcolonne>div.act{margin-left: 20px;
-      margin-right: 20px; width: 80%;}
+       width: 93%;}
   
       section#activites>div.activiteContainer>div.bgg>ul.cont>div.groupe>div.deuxcolonne>div.act>div.actimg{width: 100%;
       height: 90px; margin-bottom: 50px;}
